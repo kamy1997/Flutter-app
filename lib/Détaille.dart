@@ -41,11 +41,11 @@ class DetailScreen extends StatelessWidget {
               SizedBox(
                 height: 20,
               ),
-              Text(item["nom"]),
+              Text(item["taille"]),
               SizedBox(
                 height: 20,
               ),
-              Text(item["prénom"]),
+              Text(item["club"]),
             ],
           ),
         ),

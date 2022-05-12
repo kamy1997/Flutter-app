@@ -26,7 +26,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  String api = "http://localhost:8181/api/player/";
+  String api = "https://api-joueurs.herokuapp.com/api/player";
 
   bool isLoaded = false;
   late List data;
@@ -77,6 +77,7 @@ class _HomePageState extends State<HomePage> {
                     },
                     child: Hero(
                       tag: item["img"],
+                      
                       child: Container(
                         child: AspectRatio(
                           aspectRatio: 1 / 1,
